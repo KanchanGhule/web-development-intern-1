@@ -1,0 +1,100 @@
+body
+ {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  }
+.landing{
+  width: 100%;
+  height:100vh;
+  background: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  } 
+ .navbar{
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  box-shadow:1px 10px 30px rgba(0,0,0,1);
+ }
+ .navbar h1
+  {
+  margin:0;
+  padding: 0;
+  color: #211F1C;
+  text-transform: uppercase; 
+  line-height: 70px;
+  float: left;
+  margin-left: 50px;
+ }
+.navbar h1 span
+
+{ 
+  color: #F68E13;
+}
+.navbar nav
+{
+ float: right;
+ margin-right: 80px;
+ }
+ .navbar nav ul
+ {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
+ .navbar nav ul li
+ {
+  display: inline-block;
+ }
+ .navbar nav ul li.active
+ {
+   color: #F68E13;
+   
+  }
+ 
+ .navbar nav ul li a{
+   line-height: 70px;
+   text-transform: uppercase;
+   padding: 0 30px;
+   display: block;
+   text-decoration: none;
+   color: #000;
+   transition: .4s;
+   }
+  .navbar nav ul li a:hover{
+    color: #F68E13;
+    transition: .4s;
+  }
+  .text{
+    position: absolute;
+    top:20%;
+    left:35%;
+    transform: translate(-50%,-50%);
+  }
+  .text h1{
+    font-size: 80px;
+    color:#070707
+  }
+  .text p{
+    border-left: 2px solid #F68E13;
+    padding: 5px 20px;
+    line-height: 30px;
+    margin-bottom: 60px;
+  }
+  .text button{
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    color: #fff;
+    background: #F68E13;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 30px;
+    transition: .4s;
+    
+  }
+  .text button:hover{
+    background:#A96E30;
+    transition: .4s;
+  }
